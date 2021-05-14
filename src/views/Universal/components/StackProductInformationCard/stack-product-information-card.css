@@ -1,0 +1,44 @@
+.stack-product-information-card-content {
+    width: 250px;
+    height: 430px;
+    border: 1px solid #5B8FF9;
+}
+.stack-product-information-card-content .stack-product-information-card-title-description {
+    height: 80px;
+    padding: 10px;
+    text-align: left;
+}
+.stack-product-information-card-content .stack-product-information-card-title-description .stack-product-information-card-title {
+    font-size: 26px;
+    color: #FFFFFF;
+    line-height: 36px;
+}
+.stack-product-information-card-content .stack-product-information-card-title-description .stack-product-information-card-description {
+    font-size: 16px;
+    color: #929292;
+    line-height: 24px;
+}
+
+.stack-product-information-card-content .stack-product-information-card-information-content {
+    padding: 20px;
+}
+.stack-product-information-card-content .stack-product-information-card-information-content .stack-product-information-card-information-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 22px;
+    line-height: 40px;
+}
+.stack-product-information-card-content .stack-product-information-card-information-content .stack-product-information-card-information-item:nth-child(1) {
+    color: #adff2f;
+}
+.stack-product-information-card-content .stack-product-information-card-information-content .stack-product-information-card-information-item:nth-child(2) {
+    color: #ffff00;
+}
+.stack-product-information-card-content .stack-product-information-card-information-content .stack-product-information-card-information-item:nth-child(3) {
+    color: #87ceeb;
+}
+.stack-product-information-card-content .stack-product-information-card-information-canvas {
+    height: 188px;
+    width: 100%;
+}

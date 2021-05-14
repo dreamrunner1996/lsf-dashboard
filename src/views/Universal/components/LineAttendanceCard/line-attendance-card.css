@@ -1,0 +1,77 @@
+.line-attendance-card-content {
+    height: 280px;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid #FF64EA;
+}
+.line-attendance-card-content .line-attendance-card-title-description {
+    height: 86px;
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+.line-attendance-card-content .line-attendance-card-title-description .line-attendance-card-title {
+    color: #FF64EA;
+    font-size: 36px;
+    text-align: left;
+    line-height: 40px;
+}
+.line-attendance-card-content .line-attendance-card-title-description .line-attendance-card-description {
+    color: #AEAEAE;
+    font-size: 18px;
+    text-align: left;
+    line-height: 26px;
+}
+
+.line-attendance-card-content .line-attendance-card-canvas {
+    width: 100%;
+    height: 200px;
+}
+.line-attendance-card-content .line-attendance-card-details {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-top: 1px solid #FF64EA;
+}
+.line-attendance-card-content .line-attendance-card-details .line-attendance-card-details-item {
+    height: 77px;
+    border: 1px solid #FF64EA;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.line-attendance-card-content .line-attendance-card-details .line-attendance-card-details-item {
+    color: #FFFFFF;
+}
+.line-attendance-card-content .line-attendance-card-details .line-attendance-card-details-item:nth-child(1) {
+    color: skyblue;
+}
+.line-attendance-card-content .line-attendance-card-details .line-attendance-card-details-item:nth-child(2) {
+    color: #61E658;
+}
+.line-attendance-card-content .line-attendance-card-details .line-attendance-card-details-item:nth-child(3) {
+    color: #D9E658;
+}
+.line-attendance-card-content .line-attendance-card-details .line-attendance-card-details-item:nth-child(4) {
+    color: #E93636;
+}
+.line-attendance-card-content .line-attendance-card-details .line-attendance-card-details-item:nth-child(5) {
+    color: pink;
+}
+
+.line-attendance-card-content .line-attendance-card-details .line-attendance-card-details-item .line-attendance-card-details-item-title {
+    font-size: 22px;
+    text-align: left;
+    line-height: 24px;
+}
+.line-attendance-card-content .line-attendance-card-details .line-attendance-card-details-item .line-attendance-card-details-item-value {
+    font-size: 34px;
+    text-align: right;
+    line-height: 34px;
+}

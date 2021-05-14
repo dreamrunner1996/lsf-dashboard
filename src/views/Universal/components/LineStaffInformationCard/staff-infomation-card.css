@@ -1,0 +1,103 @@
+.staff-information-card-content {
+    width: 420px;
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #EEFF00;
+}
+.staff-information-card-content .staff-information-card-title {
+    font-size: 25px;
+    line-height: 30px;
+    color: #EEFF00;
+    text-align: left;
+}
+.staff-information-card-content .staff-information-card-list {
+    height: 300px;
+    overflow: auto;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-context {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.staff-information-card-content .staff-information-card-list::-webkit-scrollbar {
+    display: none;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item {
+    width: 192px;
+    height: 90px;
+    margin-bottom: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item {
+    border: 1px solid #3B90FF;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item:nth-child(1) {
+    border: 1px solid #FF7575;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item:nth-child(2) {
+    border: 1px solid #00DB5F;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item:nth-child(3) {
+    border: 1px solid #03FFEE;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item:nth-child(4) {
+    border: 1px solid #F1FF26;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item:nth-child(5) {
+    border: 1px solid #E05EFF;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item:nth-child(6) {
+    border: 1px solid #3AFF2C;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item:nth-child(7) {
+    border: 1px solid #F2AE4C;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item:nth-child(8) {
+    border: 1px solid #6F6FD9;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item:nth-child(9) {
+    border: 1px solid #3B90FF;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item .staff-information-card-item-image {
+    width: 78px;
+    height: 78px;
+    box-sizing: border-box;
+    border: 1px solid #3b90ff;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item .staff-information-card-item-image img {
+    width: 76px;
+    height: 76px;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item .staff-information-card-item-information {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 5px;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item .staff-information-card-item-information .staff-information-card-item-information-name {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item .staff-information-card-item-information .staff-information-card-item-information-staff {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 10px;
+    color: #10FFF7;
+}
+.staff-information-card-content .staff-information-card-list .staff-information-card-item .staff-information-card-item-information .staff-information-card-item-information-phone {
+    font-size: 14px;
+    line-height: 16px;
+    color: #EBFE30;
+}
+
+

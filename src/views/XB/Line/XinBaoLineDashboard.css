@@ -1,0 +1,303 @@
+.xin-bao-line-dashboard-content {
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    background-color: deepskyblue;
+    /*color: #FFFFFF;*/
+    color: white;
+}
+
+.xin-bao-line-dashboard-content .content-header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.xin-bao-line-dashboard-content .content-header .logo {
+    height: 100px;
+    width: 220px;
+}
+.xin-bao-line-dashboard-content .content-header .logo img {
+    height: 100%;
+    width: 100%;
+}
+.xin-bao-line-dashboard-content .content-header .title {
+    font-size: 55px;
+    line-height: 100px;
+    width: calc(1920px - 500px);
+    text-align: center;
+    /*color: #222222;*/
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.xin-bao-line-dashboard-content .content-header .time {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 10px;
+}
+.xin-bao-line-dashboard-content .content-header .time .time-date {
+    font-size: 30px;
+    line-height: 40px;
+}
+.xin-bao-line-dashboard-content .content-header .time .time-week-time {
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.xin-bao-line-dashboard-content .content-body {
+    height: calc(1080px - 100px);
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left {
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .information-table {
+    width: 100%;
+    height: 300px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .information-table table {
+    width: 100%;
+    height: 300px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .information-table table .information-table-list {
+    height: calc(300px / 8);
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .information-table table .information-table-list .information-table-item {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.information-table-list:nth-child(1) .information-table-item:nth-child(2),.information-table-list:nth-child(1) .information-table-item:nth-child(4) {
+    width: calc(1500px / 3);
+}
+.information-table-list:nth-child(1) .information-table-item:nth-child(1),.information-table-list:nth-child(1) .information-table-item:nth-child(3) {
+    width: calc(1500px / 6);
+}
+.information-table-list:nth-child(6) .information-table-item {
+    width: calc(1500px / 6);
+}
+.information-staff-item:nth-child(1), .information-staff-item:nth-child(3) {
+    font-weight: bold;
+}
+.information-staff-item:nth-child(2), .information-staff-item:nth-child(4) {
+    font-weight: bold;
+    /*color: purple;*/
+    color: white;
+}
+.information-table-list:nth-child(6) .information-table-item:nth-child(2) {
+    /*color: darkblue;*/
+    font-weight: bold;
+    color: white;
+}
+.information-table-list:nth-child(6) .information-table-item:nth-child(4) {
+    /*color: darkblue;*/
+    font-weight: bold;
+    color: white;
+}
+.information-table-list:nth-child(6) .information-table-item:nth-child(6) {
+    /*color: darkblue;*/
+    font-weight: bold;
+    color: white;
+}
+.information-table-list:nth-child(7) .information-table-item:nth-child(2) {
+    /*color: darkblue;*/
+    font-weight: bold;
+    color: white;
+}
+.information-table-list:nth-child(7) .information-table-item:nth-child(4) {
+    /*color: darkblue;*/
+    font-weight: bold;
+    color: white;
+}
+.information-table-list:nth-child(7) .information-table-item:nth-child(6) {
+    /*color: darkblue;*/
+    font-weight: bold;
+    color: white;
+}
+.information-table-list:nth-child(8) .information-table-item:nth-child(2) {
+    /*color: darkblue;*/
+    font-weight: bold;
+    color: white;
+}
+.information-table-list:nth-child(8) .information-table-item:nth-child(4) {
+    /*color: darkblue;*/
+    font-weight: bold;
+    color: white;
+}
+.information-table-list:nth-child(8) .information-table-item:nth-child(6) {
+    /*color: darkblue;*/
+    font-weight: bold;
+    color: white;
+}
+
+.xin-bao-line-dashboard-content .content-body .content-body-left .inp-out-table {
+    width: 100%;
+    height: 280px;
+    font-size: 20px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .inp-out-table table {
+    width: 100%;
+    height: 280px;
+    font-weight: bold;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .inp-out-table table tr th:nth-child(1) {
+    width: 200px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .inp-out-table table .inp-out-table-timer-list .inp-out-table-timer-item {
+    /*color: black;*/
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    line-height: 27px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .inp-out-table table .inp-out-table-target-list .inp-out-table-target-item  {
+    /*color: black;*/
+    color: white;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .inp-out-table table .inp-out-table-input-list .inp-out-table-input-item  {
+    /*color: black;*/
+    color: white;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .inp-out-table table .inp-out-table-output-list .inp-out-table-output-item  {
+    /*color: springgreen;*/
+    color: white;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .inp-out-table table .inp-out-table-useless-list .inp-out-table-useless-item  {
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .inp-out-table table .inp-out-table-percent-list .inp-out-table-percent-item  {
+    /*color: deeppink;*/
+    color: white;
+}
+
+.xin-bao-line-dashboard-content .content-body .content-body-left .g2-output-finish-canvas-content {
+    height: 360px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .g2-output-finish-canvas-content .g2-output-canvas-content {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 10px);
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .g2-output-finish-canvas-content .g2-output-canvas-content .g2-output-canvas-title {
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    height: 40px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .g2-output-finish-canvas-content .g2-output-canvas-content .g2-output-canvas-description {
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .g2-output-finish-canvas-content .g2-output-canvas-content .g2-output-canvas-canvas {
+    height: 300px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .g2-output-finish-canvas-content .g2-finish-canvas-content {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 10px);
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .g2-output-finish-canvas-content .g2-finish-canvas-content .g2-finish-canvas-title {
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    height: 40px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .g2-output-finish-canvas-content .g2-finish-canvas-content .g2-finish-canvas-description {
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-left .g2-output-finish-canvas-content .g2-finish-canvas-content .g2-finish-canvas-canvas {
+    height: 300px;
+}
+
+
+.xin-bao-line-dashboard-content .content-body .content-body-right {
+    width: 400px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .g2-plan-pie-canvas-content {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .g2-plan-pie-canvas-content .g2-plan-pie-canvas-title {
+    text-align: left;
+    font-size: 1.8em;
+    line-height: 36px;
+    height: 36px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .g2-plan-pie-canvas-content .g2-plan-pie-canvas-description {
+    text-align: left;
+    font-size: 1.2em;
+    height: 14px;
+    line-height: 14px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .g2-plan-pie-canvas-content .g2-plan-pie-canvas-canvas {
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .g2-quality-pie-canvas-content {
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    margin-top: 10px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .g2-quality-pie-canvas-content .g2-quality-pie-canvas-title {
+    text-align: left;
+    font-size: 1.8em;
+    line-height: 36px;
+    height: 36px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .g2-quality-pie-canvas-content .g2-quality-pie-canvas-description {
+    text-align: left;
+    font-size: 1.2em;
+    height: 14px;
+    line-height: 14px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .g2-quality-pie-canvas-content .g2-quality-pie-canvas-canvas {
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .product-information-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 90px;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .product-information-content .product-information-item {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.8em;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .product-information-content .product-information-item .product-information-title {
+    width: 40%;
+    text-align: left;
+    font-weight: bold;
+}
+.xin-bao-line-dashboard-content .content-body .content-body-right .product-information-content .product-information-item .product-information-value {
+    width: 60%;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+}

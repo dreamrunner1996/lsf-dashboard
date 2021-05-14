@@ -1,0 +1,29 @@
+.date-time-content {
+  display: flex;
+  flex-direction: column;
+  color: #444444;
+  height: 216px;
+  align-content: space-around;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.date-time-content .date-week {
+  margin-top: 10px;
+  font-size: 40px;
+  color: black;
+}
+
+.date-time-content .time {
+  font-size: 45px;
+  color: black;
+  margin-top: -4px;
+}
+
+.date-time-content .time-zone {
+  font-size: 16px;
+  color: black;
+  margin-top: -4px;
+  margin-bottom: 6px;
+}

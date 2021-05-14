@@ -1,0 +1,22 @@
+.stack-output-waterfall-content {
+    width: 580px;
+    height: 430px;
+}
+.stack-output-waterfall-content .stack-output-waterfall-title-description {
+    height: 70px;
+    text-align: left;
+}
+.stack-output-waterfall-content .stack-output-waterfall-title-description .stack-output-waterfall-title {
+    font-size: 34px;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+.stack-output-waterfall-content .stack-output-waterfall-title-description .stack-output-waterfall-description {
+    font-size: 20px;
+    color: #929292;
+    line-height: 30px;
+}
+.stack-output-waterfall-content .stack-output-waterfall-canvas {
+    height: 360px;
+    width: 100%;
+}

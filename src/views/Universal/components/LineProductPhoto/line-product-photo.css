@@ -1,0 +1,10 @@
+.line-product-photo-content {
+    width: 100%;
+    height: 220px;
+    border: 1px solid yellow;
+}
+
+.line-product-photo-content img {
+    width: auto;
+    max-height: 240px;
+}

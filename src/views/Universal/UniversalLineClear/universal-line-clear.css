@@ -1,0 +1,144 @@
+.universal-line-clear-content {
+    width: 1920px;
+    height: 1080px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.universal-line-clear-content .content-header {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.universal-line-clear-content .content-header .logo-time-title-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.universal-line-clear-content .content-header .logo-time-title-card-content .logo-time-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 125px;
+    line-height: 125px;
+    width: 650px;
+}
+.universal-line-clear-content .content-header .logo-time-title-card-content .logo-time-content .logo-content {
+    width: 250px;
+    height: 125px;
+}
+.universal-line-clear-content .content-header .logo-time-title-card-content .logo-time-content .logo-content img {
+    width: 250px;
+    height: 100px;
+    line-height: 125px;
+}
+.universal-line-clear-content .content-header .logo-time-title-card-content .logo-time-content .time-content {
+    height: 125px;
+    line-height: 125px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    color: #2c2c2c;
+}
+.universal-line-clear-content .content-header .logo-time-title-card-content .logo-time-content .time-content .date {
+    font-size: 34px;
+    line-height: 40px;
+}
+.universal-line-clear-content .content-header .logo-time-title-card-content .logo-time-content .time-content .week {
+    font-size: 28px;
+    line-height: 40px;
+}
+.universal-line-clear-content .content-header .logo-time-title-card-content .logo-time-content .time-content .time {
+    font-size: 38px;
+    line-height: 45px;
+}
+.universal-line-clear-content .content-header .logo-time-title-card-content .divider {
+    height: 1px;
+    background-color: #dedede;
+    width: 80%;
+    margin: auto;
+}
+.universal-line-clear-content .content-header .logo-time-title-card-content .title-content {
+    height: 120px;
+    line-height: 120px;
+    color: #2c2c2c;
+    font-size: 45px;
+}
+.universal-line-clear-content .content-header .order-custom-information-content {
+    width: 420px;
+    height: 250px;
+}
+.universal-line-clear-content .content-header .order-custom-information-content .title {
+    width: 100%;
+    height: 70px;
+    background: #2c2c2c;
+    color: #FFFFFF;
+    padding: 10px;
+    line-height: 50px;
+    font-size: 30px;
+}
+.universal-line-clear-content .content-header .order-custom-information-content .order-custom-information-item {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #bababa;
+    font-weight: bold;
+}
+
+.universal-line-clear-content .content-header .product-information-content {
+    width: 420px;
+    height: 250px;
+}
+.universal-line-clear-content .content-header .product-information-content .title {
+    width: 100%;
+    height: 70px;
+    background: #2c2c2c;
+    color: #FFFFFF;
+    padding: 10px;
+    line-height: 50px;
+    font-size: 30px;
+}
+.universal-line-clear-content .content-header .product-information-content .product-information-item {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #bababa;
+    font-weight: bold;
+}
+
+.universal-line-clear-content .content-header .attendance-card-content {
+    width: 350px;
+    height: 250px;
+    border: 1px solid #ababab;
+}
+.universal-line-clear-content .content-body {
+    margin-top: 20px;
+    width: 1900px;
+    height: calc(1060px - 250px - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.universal-line-clear-content .content-body .product-table-content {
+    width: 1900px;
+    height: 300px;
+}
+.universal-line-clear-content .content-body .product-charts-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1900px;
+    height: 250px;
+}

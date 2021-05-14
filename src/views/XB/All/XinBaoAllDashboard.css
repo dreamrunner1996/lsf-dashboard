@@ -1,0 +1,191 @@
+.xin-bao-all-dashboard-content {
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.xin-bao-all-dashboard-content .content-header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.xin-bao-all-dashboard-content .content-header .logo {
+    height: 100px;
+    width: 220px;
+}
+.xin-bao-all-dashboard-content .content-header .logo img {
+    height: 100%;
+    width: 100%;
+}
+.xin-bao-all-dashboard-content .content-header .title {
+    font-size: 43px;
+    line-height: 100px;
+    width: calc(1920px - 500px);
+    text-align: center;
+    color: #222222;
+    box-sizing: border-box;
+}
+.xin-bao-all-dashboard-content .content-header .time {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 10px;
+}
+.xin-bao-all-dashboard-content .content-header .time .time-date {
+    font-size: 30px;
+    line-height: 40px;
+    color: #222222;
+}
+.xin-bao-all-dashboard-content .content-header .time .time-week-time {
+    font-size: 42px;
+    line-height: 50px;
+    color: #222222;
+}
+
+.xin-bao-all-dashboard-content .content-body {
+    height: calc(1080px - 100px);
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left {
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .information-table-content {
+    width: 100%;
+    height: 500px;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .information-table-content .information-table-title {
+    text-align: left;
+    font-size: 26px;
+    height: 30px;
+    line-height: 30px;
+    color: #001529;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .information-table-content .information-table-description {
+    text-align: left;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    color: #001529;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .information-table-content .information-table-context {
+    margin-top: 5px;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .information-table-content .information-table-context table {
+    width: 100%;
+    height: 450px;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .information-table-content .information-table-context table tr:nth-child(1) {
+    height: 40px;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .information-table-content .information-table-context table tr th {
+    padding: 5px;
+    font-size: 22px;
+    height: 40px;
+    line-height: 40px;
+}
+.information-table-context table tr th:nth-child(1) {
+    width: 150px;
+}
+.information-table-context table tr th:nth-child(2) {
+    width: 100px;
+}
+.information-table-context table tr th:nth-child(3) {
+    width: 100px;
+}
+.information-table-context table tr th:nth-child(4) {
+    width: 120px;
+}
+.information-table-context table tr th:nth-child(5) {
+    width: 215px;
+}
+.information-table-context table tr th:nth-child(6) {
+    width: 215px;
+}
+.information-table-context table tr th:nth-child(7) {
+    width: 120px;
+}
+.information-table-context table tr th:nth-child(8) {
+    width: 120px;
+}
+.information-table-context table tr th:nth-child(9) {
+    width: 120px;
+}
+.information-table-context table tr th:nth-child(10) {
+    width: 120px;
+}
+.information-table-context table tr th:nth-child(11) {
+    width: 120px;
+}
+
+.xin-bao-all-dashboard-content .content-body .content-body-left .information-table-content .information-table-context table tr td {
+    padding: 5px;
+    font-size: 16px;
+    height: 25px;
+    line-height: 25px;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .information-table-content .information-table-context .information-table-tr {
+    font-size: 16px;
+    font-weight: bold;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .g2-all-output-finish-canvas-content {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .g2-all-output-finish-canvas-content .g2-all-output-canvas-content {
+    width: calc(50% - 10px);
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .g2-all-output-finish-canvas-content .g2-all-output-canvas-content .g2-all-output-canvas-title {
+    text-align: left;
+    font-size: 26px;
+    height: 30px;
+    line-height: 30px;
+    color: #001529;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .g2-all-output-finish-canvas-content .g2-all-output-canvas-content .g2-all-output-canvas-description {
+    text-align: left;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    color: #001529;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .g2-all-output-finish-canvas-content .g2-all-output-canvas-content .g2-all-output-canvas-canvas {
+    height: 340px;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .g2-all-output-finish-canvas-content .g2-all-finish-canvas-content {
+    width: calc(50% - 10px);
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .g2-all-output-finish-canvas-content .g2-all-finish-canvas-content .g2-all-finish-canvas-title {
+    text-align: left;
+    font-size: 26px;
+    height: 30px;
+    line-height: 30px;
+    color: #001529;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .g2-all-output-finish-canvas-content .g2-all-finish-canvas-content .g2-all-finish-canvas-description {
+    text-align: left;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    color: #001529;
+}
+.xin-bao-all-dashboard-content .content-body .content-body-left .g2-all-output-finish-canvas-content .g2-all-finish-canvas-content .g2-all-finish-canvas-canvas {
+    height: 340px;
+}
+
+.xin-bao-all-dashboard-content .content-body .content-body-right {
+    width: 400px;
+}
+

@@ -1,0 +1,75 @@
+.by-new-stack-content {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+.by-new-stack-content .by-new-stack-content-header {
+    display: flex;
+    flex-direction: row;
+    height: 108px;
+}
+.by-new-stack-content .by-new-stack-content-header .by-new-stack-content-image {
+    width: 300px;
+    height: 108px;
+    text-align: left;
+}
+.by-new-stack-content .by-new-stack-content-header .by-new-stack-content-image img {
+    height: 108px;
+}
+.by-new-stack-content .by-new-stack-content-header .by-new-stack-content-title {
+    width: calc(100% - 600px);
+    line-height: 108px;
+    font-size: 45px;
+    color: orange;
+}
+.by-new-stack-content .by-new-stack-content-header .by-new-stack-content-time {
+    width: 300px;
+    height: 108px;
+}
+
+.by-new-stack-content .by-new-stack-content-body {
+    width: 1920px;
+    height: 972px;
+    display: flex;
+    flex-direction: column;
+}
+.by-new-stack-content .by-new-stack-content-body .content-body-row {
+    width: 1920px;
+    height: 324px;
+    display: flex;
+    flex-direction: row;
+}
+.by-new-stack-content .by-new-stack-content-body .content-body-row .content-body-row-item {
+    width: calc(100% / 2);
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid #222222;
+    justify-content: center;
+    align-content: center;
+}
+.by-new-stack-content .by-new-stack-content-body .content-body-row .content-body-row-item:nth-child(1) {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: bold;
+}
+.by-new-stack-content .by-new-stack-content-body .content-body-row .content-body-row-item:nth-child(2) {
+    color: deepskyblue;
+    font-size: 100px;
+}
+.by-new-stack-content .by-new-stack-content-body .content-body-row:nth-child(1) {
+    background-color: purple;
+}
+.by-new-stack-content .by-new-stack-content-body .content-body-row:nth-child(2) {
+    background-color: gray;
+}
+.by-new-stack-content .by-new-stack-content-body .content-body-row:nth-child(3) {
+    background-color: darkgray;
+}
+.by-new-stack-content .by-new-stack-content-body .content-body-row:nth-child(1) .content-body-row-item:nth-child(1) {
+    color: yellow;
+}
+.by-new-stack-content .by-new-stack-content-body .content-body-row:nth-child(1) .content-body-row-item:nth-child(2) {
+    color: #FFFFFF;
+}

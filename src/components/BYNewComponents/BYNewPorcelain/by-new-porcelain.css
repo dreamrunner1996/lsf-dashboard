@@ -1,0 +1,23 @@
+.by-new-porcelain-content {
+    box-sizing: border-box;
+    height: 108px;
+    border-radius: 5px;
+    border: 1px solid #222222;
+    text-align: center;
+}
+.by-new-porcelain-content .by-new-porcelain-information-ch {
+    color: yellow;
+    font-size: 22px;
+    font-weight: bold;
+}
+.by-new-porcelain-content .by-new-porcelain-information-en {
+    color: yellow;
+    font-size: 20px;
+}
+.by-new-porcelain-content .by-new-porcelain-information-val {
+    color: white;
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 30px;
+}

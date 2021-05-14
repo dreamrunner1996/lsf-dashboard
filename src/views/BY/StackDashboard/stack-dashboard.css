@@ -1,0 +1,72 @@
+.stack-dashboard-content {
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+}
+.stack-dashboard-content .content-header {
+    display: flex;
+    flex-direction: row;
+    height: 108px;
+}
+.stack-dashboard-content .content-header .title {
+    width: calc(100% - 384px);
+    line-height: 108px;
+    font-size: 45px;
+    color: orange;
+}
+.stack-dashboard-content .content-header .none {
+    width: 384px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.stack-dashboard-content .content-body {
+    width: 1920px;
+    height: 972px;
+    display: flex;
+    flex-direction: column;
+}
+.stack-dashboard-content .content-body .content-body-row {
+    width: 1920px;
+    height: 324px;
+    display: flex;
+    flex-direction: row;
+}
+.stack-dashboard-content .content-body .content-body-row .content-body-row-item {
+    width: calc(100% / 2);
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid #222222;
+    justify-content: center;
+    align-content: center;
+}
+.stack-dashboard-content .content-body .content-body-row .content-body-row-item:nth-child(1) {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: bold;
+}
+.stack-dashboard-content .content-body .content-body-row .content-body-row-item:nth-child(2) {
+    color: deepskyblue;
+    font-size: 100px;
+}
+.stack-dashboard-content .content-body .content-body-row:nth-child(1) {
+    background-color: purple;
+}
+.stack-dashboard-content .content-body .content-body-row:nth-child(2) {
+    background-color: gray;
+}
+.stack-dashboard-content .content-body .content-body-row:nth-child(3) {
+    background-color: darkgray;
+}
+.stack-dashboard-content .content-body .content-body-row:nth-child(1) .content-body-row-item:nth-child(1) {
+    color: yellow;
+}
+.stack-dashboard-content .content-body .content-body-row:nth-child(1) .content-body-row-item:nth-child(2) {
+    color: #FFFFFF;
+}

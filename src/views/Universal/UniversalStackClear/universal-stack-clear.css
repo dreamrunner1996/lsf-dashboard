@@ -1,0 +1,126 @@
+.universal-stack-clear-content {
+    width: 1920px;
+    height: 1080px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.universal-stack-clear-content .content-header {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.universal-stack-clear-content .content-header .logo-time-title-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #2c2c2c;
+}
+.universal-stack-clear-content .content-header .logo-time-title-card-content .logo-time-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 125px;
+    line-height: 125px;
+    width: 650px;
+}
+.universal-stack-clear-content .content-header .logo-time-title-card-content .logo-time-content .logo-content {
+    width: 250px;
+    height: 125px;
+}
+.universal-stack-clear-content .content-header .logo-time-title-card-content .logo-time-content .logo-content img {
+    width: 250px;
+    height: 100px;
+    line-height: 125px;
+}
+.universal-stack-clear-content .content-header .logo-time-title-card-content .logo-time-content .time-content {
+    height: 125px;
+    line-height: 125px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    color: #2c2c2c;
+}
+.universal-stack-clear-content .content-header .logo-time-title-card-content .logo-time-content .time-content .date {
+    font-size: 34px;
+    line-height: 40px;
+}
+.universal-stack-clear-content .content-header .logo-time-title-card-content .logo-time-content .time-content .week {
+    font-size: 28px;
+    line-height: 40px;
+}
+.universal-stack-clear-content .content-header .logo-time-title-card-content .logo-time-content .time-content .time {
+    font-size: 38px;
+    line-height: 45px;
+}
+.universal-stack-clear-content .content-header .logo-time-title-card-content .divider {
+    height: 1px;
+    background-color: #dedede;
+    width: 80%;
+    margin: auto;
+}
+.universal-stack-clear-content .content-header .logo-time-title-card-content .title-content {
+    height: 120px;
+    line-height: 120px;
+    color: #2c2c2c;
+    font-size: 45px;
+}
+
+.universal-stack-clear-content .content-header .show-detail-item {
+    width: 290px;
+    height: 250px;
+    border: 1px solid #2c2c2c;
+}
+.universal-stack-clear-content .content-header .show-detail-item .title {
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #2c2c2c;
+}
+.universal-stack-clear-content .content-header .show-detail-item .value {
+    height: 170px;
+    line-height: 170px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.universal-stack-clear-content .content-header .universal-stack-clear-liquid {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #2c2c2c;
+}
+
+.universal-stack-clear-content .content-body {
+    margin-top: 20px;
+    width: 1900px;
+    height: calc(1060px - 250px - 20px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.universal-stack-clear-content .content-body .stack-information-card-content {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: calc(1060px - 250px - 20px);
+}
+.universal-stack-clear-content .content-body .stack-charts-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 650px - 20px);
+    height: calc(1060px - 250px - 20px);
+}
+.universal-stack-clear-content .content-body .stack-charts-card-content .stack-output-line-content {
+    height: calc((1060px - 250px - 20px) / 2 - 10px);
+    width: 100%;
+}
+.universal-stack-clear-content .content-body .stack-charts-card-content .stack-output-waterfall-content {
+    height: calc((1060px - 250px - 20px) / 2 - 10px);
+    width: 100%;
+}
+

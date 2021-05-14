@@ -1,0 +1,53 @@
+.line-inp-out-useless-card-content {
+    width: 100%;
+    padding: 10px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 1px solid #0DFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.line-inp-out-useless-card-content .line-inp-out-useless-card-title-description {
+    display: flex;
+    flex-direction: row;
+}
+.line-inp-out-useless-card-content .line-inp-out-useless-card-title-description .line-inp-out-useless-card-title {
+    color: #0DFFFF;
+    font-size: 26px;
+    line-height: 26px;
+    margin-right: 10px;
+}
+.line-inp-out-useless-card-content .line-inp-out-useless-card-title-description .line-inp-out-useless-card-description {
+    color: #8C8C8C;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 6px;
+}
+
+.line-inp-out-useless-card-content .line-inp-out-useless-card-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+}
+.line-inp-out-useless-card-content .line-inp-out-useless-card-list .line-inp-out-useless-card-item {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.line-inp-out-useless-card-content .line-inp-out-useless-card-list .line-inp-out-useless-card-item:nth-child(1) {
+    color: #EEE72E;
+}
+.line-inp-out-useless-card-content .line-inp-out-useless-card-list .line-inp-out-useless-card-item:nth-child(2) {
+    color: skyblue;
+}
+.line-inp-out-useless-card-content .line-inp-out-useless-card-list .line-inp-out-useless-card-item:nth-child(3) {
+    color: #2FDE4C;
+}
+.line-inp-out-useless-card-content .line-inp-out-useless-card-list .line-inp-out-useless-card-item:nth-child(4) {
+    color: #EE2A2A;
+}

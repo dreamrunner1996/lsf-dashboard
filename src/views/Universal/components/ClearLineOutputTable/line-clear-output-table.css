@@ -1,0 +1,50 @@
+.line-clear-output-table-content {
+    width: 100%;
+    height: 300px;
+}
+.line-clear-output-table-content table {
+    height: 300px;
+    width: 100%;
+}
+.line-clear-output-table-content table tr {
+    height: 50px;
+}
+.line-clear-output-table-content table tr:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c2c2c;
+}
+.line-clear-output-table-content table tr:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff8c00;
+}
+.line-clear-output-table-content table tr:nth-child(3) {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8b008b;
+}
+.line-clear-output-table-content table tr:nth-child(4) {
+    font-size: 20px;
+    font-weight: bold;
+    color: #006400;
+}
+.line-clear-output-table-content table tr:nth-child(5) {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8b0000;
+}
+.line-clear-output-table-content table tr:nth-child(6) {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00008b;
+}
+.line-clear-output-table-content table tr td:nth-child(1) {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8b0000;
+    width: 150px;
+}
+.line-clear-output-table-content table td {
+    border: 1px solid #2c2c2c;
+}

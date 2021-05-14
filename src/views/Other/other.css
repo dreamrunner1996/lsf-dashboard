@@ -1,0 +1,25 @@
+.other-content {}
+.other-content .nav-item {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: deepskyblue;
+    border: 1px solid coral;
+}
+.other-content .nav-content {
+    width: 100px;
+    height: 30px;
+    overflow: hidden;
+    margin-top: -30px;
+}
+.other-content .nav-content .nav-content-item {
+    border: 1px solid #8c939d;
+    box-sizing: border-box;
+    height: 30px;
+    background-color: aquamarine;
+}
+.other-content .nav-content:hover {
+    transition: height 500ms ease;
+    margin-top: -30px;
+    height: 120px;
+}

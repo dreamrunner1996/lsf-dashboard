@@ -1,0 +1,22 @@
+.stack-output-column-content {
+    width: 580px;
+    height: 430px;
+}
+.stack-output-column-content .stack-output-column-title-description {
+    height: 70px;
+    text-align: left;
+}
+.stack-output-column-content .stack-output-column-title-description .stack-output-column-title {
+    font-size: 34px;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+.stack-output-column-content .stack-output-column-title-description .stack-output-column-description {
+    font-size: 20px;
+    color: #929292;
+    line-height: 30px;
+}
+.stack-output-column-content .stack-output-column-canvas {
+    height: 360px;
+    width: 100%;
+}

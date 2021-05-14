@@ -1,0 +1,16 @@
+.by-new-date-time-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+}
+.by-new-date-time-content .date-week {
+    font-size: 30px;
+    line-height: 36px;
+}
+.by-new-date-time-content .time {
+    font-size: 54px;
+    line-height: 60px;
+}

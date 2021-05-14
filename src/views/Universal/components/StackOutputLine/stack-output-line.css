@@ -1,0 +1,24 @@
+.stack-output-line-content {
+    width: 860px;
+    height: 430px;
+}
+.stack-output-line-content .stack-output-line-title-description {
+    display: flex;
+    flex-direction: row;
+    line-height: 50px;
+    height: 50px;
+}
+.stack-output-line-content .stack-output-line-title-description .stack-output-line-title {
+    font-size: 34px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.stack-output-line-content .stack-output-line-title-description .stack-output-line-description {
+    font-size: 20px;
+    color: #929292;
+    margin-top: 7px;
+}
+.stack-output-line-content .stack-output-line-canvas {
+    height: 380px;
+    width: 100%;
+}
