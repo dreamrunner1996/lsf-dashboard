@@ -134,13 +134,21 @@
             <div class="value-context" />
           </div>
           <div class="product-information-content">
-            <!--      投入产能      -->
+            <!--      标准产能      -->
             <div class="product-information-item product-info-standard">
               <div class="product-information-item-logo-title-content">
                 <img class="product-info-item-logo" :src="image.infoStandard" alt="#" />
-                <div class="product-info-item-title">投入产能</div>
+                <div class="product-info-item-title">标准产能</div>
               </div>
-              <div class="product-info-item-value">{{ lineOutputData.data.input }}</div>
+              <div class="product-info-item-value">{{ lineOutputData.data.standard }}</div>
+            </div>
+            <!--      实际产能      -->
+            <div class="product-information-item product-info-reality">
+              <div class="product-information-item-logo-title-content">
+                <img class="product-info-item-logo" :src="image.infoReality" alt="#" />
+                <div class="product-info-item-title">实际产能</div>
+              </div>
+              <div class="product-info-item-value">{{ lineOutputData.data.reality }}</div>
             </div>
             <!--      合格数量      -->
             <div class="product-information-item product-info-qualified">
@@ -148,15 +156,7 @@
                 <img class="product-info-item-logo" :src="image.infoQualified" alt="#" />
                 <div class="product-info-item-title">合格数量</div>
               </div>
-              <div class="product-info-item-value">{{ lineOutputData.data.ok }}</div>
-            </div>
-            <!--      不良数量      -->
-            <div class="product-information-item product-info-useless">
-              <div class="product-information-item-logo-title-content">
-                <img class="product-info-item-logo" :src="image.infoUseless" alt="#" />
-                <div class="product-info-item-title">不良数量</div>
-              </div>
-              <div class="product-info-item-value">{{ lineOutputData.data.useless }}</div>
+              <div class="product-info-item-value">{{ lineOutputData.data.qualified }}</div>
             </div>
           </div>
         </div>
@@ -260,7 +260,10 @@ export default {
       data: {
         input: 0,
         ok: 0,
-        useless: 0
+        useless: 0,
+        standard: 0,
+        reality: 0,
+        qualified: 0
       }
     },
     attendanceData: {
@@ -335,6 +338,9 @@ export default {
       this.lineOutputData.data.input = 0
       this.lineOutputData.data.ok = 0
       this.lineOutputData.data.useless = 0
+      this.lineOutputData.data.standard = 0
+      this.lineOutputData.data.reality = 0
+      this.lineOutputData.data.qualified = 0
       // 考勤信息 - 出勤、请假、缺席
       this.attendanceData.data.worker = paramData.attendance.normal ? paramData.attendance.normal : 0
       this.attendanceData.data.leave = paramData.attendance.leave ? paramData.attendance.leave : 0
@@ -370,6 +376,7 @@ export default {
           }
         })
         // 当日各时段产能情况 + 产能信息 投入，合格，不良
+        // 当日各时段产能情况 + 产能信息 标准、实际、合格
         this.columnData.data.forEach(columnDataRes => {
           if (dataDataListRes.startTime.timeStamp === columnDataRes.startTime.timeStamp && dataDataListRes.endTime.timeStamp === columnDataRes.endTime.timeStamp) {
             // 当日各时段产能情况
@@ -378,18 +385,26 @@ export default {
                 columnDataRes.value += dtObj.input
                 // 产能信息 投入
                 this.lineOutputData.data.input += dtObj.input
+                // 产能信息 标准产能
+                this.lineOutputData.data.standard += dtObj.input
                 break
               }
               case 'output': {
                 columnDataRes.value += dtObj.ok
                 // 产能信息 合格
                 this.lineOutputData.data.ok += dtObj.ok
+                // 产能信息 实际产能
+                this.lineOutputData.data.reality += dtObj.ok
+                // 产能信息 合格数量
+                this.lineOutputData.data.qualified += dtObj.ok
                 break
               }
               case 'useless': {
                 columnDataRes.value += dtObj.ng
                 // 产能信息 不良
                 this.lineOutputData.data.useless += dtObj.ng
+                // 产能信息 实际产能
+                this.lineOutputData.data.reality += dtObj.ng
                 break
               }
               // case 'repair': columnDataRes.value += dtObj.repair; break

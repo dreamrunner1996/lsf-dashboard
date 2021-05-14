@@ -1,7 +1,7 @@
 // 访问用 this.$root.$data.store.devUrl 等访问    --   可读可写
 const store = {
     // devUrl1: 'http://192.168.3.82:8000',
-    devUrl: 'http://localhost:1234',
+    devUrl: '',
     url: '',
     scanTime: {
         table: 5000,
